@@ -22,8 +22,49 @@
             </intent-filter>
         </activity>
 
-
-
+        <!-- IMAGE DOT INDICATOR -->
+        <activity
+            android:name=".SampleImageDotDefault"
+            android:label="ImageDot/Default">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.jakewharton.android.viewpagerindicator.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SampleImageDotInitialPage"
+            android:label="ImageDot/Initial Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.jakewharton.android.viewpagerindicator.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SampleImageDotSnap"
+            android:label="ImageDot/Snap">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.jakewharton.android.viewpagerindicator.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SampleImageDotStyledLayout"
+            android:label="ImageDot/Styled (via layout)"
+            android:theme="@android:style/Theme.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.jakewharton.android.viewpagerindicator.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SampleImageDotStyledTheme"
+            android:label="ImageDot/Styled (via theme)"
+            android:theme="@style/StyledIndicators">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.jakewharton.android.viewpagerindicator.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
         <!-- CIRCLE INDICATOR -->
         <activity
             android:name=".SampleCirclesDefault"

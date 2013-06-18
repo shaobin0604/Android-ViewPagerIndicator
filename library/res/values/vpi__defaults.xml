@@ -15,6 +15,13 @@
 -->
 
 <resources>
+    <dimen name="default_image_dot_indicator_spacing">14dip</dimen>
+    <drawable name="default_image_dot_indicator_page_img">@drawable/vpi_image_dot_grey</drawable>
+    <drawable name="default_image_dot_indicator_fill_img">@drawable/vpi_image_dot_green</drawable>
+    <bool name="default_image_dot_indicator_snap">false</bool>
+    <integer name="default_image_dot_indicator_orientation">0</integer>
+    <bool name="default_image_dot_indicator_centered">true</bool>
+    
     <bool name="default_circle_indicator_centered">true</bool>
     <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
     <color name="default_circle_indicator_page_color">#00000000</color>

@@ -17,6 +17,8 @@
 
 <resources>
     <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the image dot indicator -->
+        <attr name="vpiImageDotPageIndicatorStyle" format="reference"/>
         <!-- Style of the circle indicator. -->
         <attr name="vpiCirclePageIndicatorStyle" format="reference"/>
         <!-- Style of the icon indicator's views. -->
@@ -35,6 +37,24 @@
     <attr name="selectedColor" format="color" />
     <attr name="strokeWidth" format="dimension" />
     <attr name="unselectedColor" format="color" />
+    <attr name="snap" format="boolean" />
+
+    <declare-styleable name="ImageDotPageIndicator">
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation"/>
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- View background -->
+        <attr name="android:background"/>
+        <!-- Spacing between indicator -->
+        <attr name="spacing" format="dimension"/>
+        <!-- Page background -->
+        <attr name="pageImg" format="reference"/>
+        <!-- Fill background -->
+        <attr name="fillImg" format="reference"/>
+    </declare-styleable>
 
     <declare-styleable name="CirclePageIndicator">
         <!-- Whether or not the indicators should be centered. -->
@@ -48,7 +68,7 @@
         <!-- Radius of the circles. This is also the spacing between circles. -->
         <attr name="radius" format="dimension" />
         <!-- Whether or not the selected indicator snaps to the circles. -->
-        <attr name="snap" format="boolean" />
+        <attr name="snap" />
         <!-- Color of the open circles. -->
         <attr name="strokeColor" format="color" />
         <!-- Width of the stroke used to draw the circles. -->
